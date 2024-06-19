@@ -20,18 +20,19 @@ define(['N/currentRecord'],
            // alert(actValue);
             console.log("checkbox",actValue);
            // var actValue = 'T';
-            if (actValue == 'T'){
-                currentRecord.setValue({
-                    fieldId: 'memo',
-                    value: 'Testing Completed'
-                });
-            }
-            else{
+            
+           
+            
                 currentRecord.setValue({
                     fieldId: 'memo',
                     value: 'Testing Not Completed'
                 });
-            }
+
+                currentRecord.setValue({
+                    fieldId: 'memo',
+                    value: 'Testing Not Completed'
+                });
+            
 
         }
 
